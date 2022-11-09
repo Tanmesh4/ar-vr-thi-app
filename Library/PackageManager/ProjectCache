@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638033482939365779
-    m_Hash: 1913733345
+      ticks: 638035469623864905
+    m_Hash: 590251607
   m_LockFileStatus:
     m_FilePath: C:/Users/tkide/OneDrive/Datenspeicher/Master UX/02 AR VR Project/git
       project/ar-vr-thi-app/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638033483884311971
-    m_Hash: 3703811000
+      ticks: 638035469623874904
+    m_Hash: 811545694
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
