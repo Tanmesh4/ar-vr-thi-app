@@ -424,7 +424,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Wave.XRSDK.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Wave.XRSDK.ref.dll"
-"Assets/Avatare/UnityChan/Editor/CreateLocatorHere.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs"
 -langversion:9.0
 
