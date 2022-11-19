@@ -463,6 +463,8 @@
 "Assets/Samples/VIVE Input Utility/1.17.0/3. 3D Drag/Scripts/PlayGroundManager.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/GravitySwitch.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/ResetButton.cs"
+"Assets/Scripts/moveCamera.cs"
+"Assets/Scripts/moveCameraPos.cs"
 "Assets/Scripts/movePlayer.cs"
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/NetworkPlayer.cs"
