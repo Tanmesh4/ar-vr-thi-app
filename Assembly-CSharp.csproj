@@ -77,7 +77,7 @@
      <Compile Include="Assets/Scripts/TrafficLightsControllerTrigger.cs" />
      <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoProximityVoiceChat/Scripts/ProximityVoiceTrigger.cs" />
      <Compile Include="Assets/Scripts/PlayerName.cs" />
-     <Compile Include="Assets/Scripts/movePlayer.cs" />
+     <Compile Include="Assets/Scripts/MovePlayer.cs" />
      <Compile Include="Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/ResetButton.cs" />
      <Compile Include="Assets/Scripts/TrafficLightsController.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
@@ -100,8 +100,6 @@
      <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
      <Compile Include="Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs" />
      <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
-     <Compile Include="Assets/Scripts/moveCameraPos.cs" />
-     <Compile Include="Assets/Scripts/moveCamera.cs" />
      <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" />
      <None Include="Assets/Photon/PhotonUnityNetworking/changelog.txt" />
      <None Include="Assets/Photon/PhotonVoice/changes-voice.txt" />

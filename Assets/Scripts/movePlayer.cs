@@ -2,45 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movePlayer : MonoBehaviour
+public class MovePlayer : MonoBehaviour
 {
-    
-    [Header("Movement")]
-    public float moveSpeed;
-    public Transform orientation;
+    // Start is called before the first frame update
+    private CharacterController cc;
+    private Animator ani;
 
-    float horizontalInput;
-    float verticalInput;
+    private float inX;
+    private float inZ;
+    private Vector3 movev3;
+    private Vector3 velV3;
+     private float movespeed;
+    //private float grav;
 
-    Vector3 moveDirection;
-    Rigidbody rb;
+    void Start()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("player");
+        cc = player.GetComponent<CharacterController>();
+        ani = player.transform.GetChild(0).GetComponent<Animator>();
 
-    private void Start() {
-        rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true;
+        movespeed = 4f;
+        //grav = 0.5f;
     }
 
-    private void Update() {
-        MyInput();
+    // Update is called once per frame
+    void Update()
+    {
+        inX = Input.GetAxis("Horizontal");
+        inZ = Input.GetAxis("Vertical");
     }
 
     private void FixedUpdate() {
-        MovePlayer();
-    }
+        movev3 = cc.transform.forward * inZ;
+        cc.transform.Rotate(Vector3.up * inX * (100f * Time.deltaTime));
 
-    private void MyInput()
-    {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
+        cc.Move(movev3 * movespeed * Time.deltaTime);
     }
-
-     private void MovePlayer()
-    {
-        // calculate movement direction
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-
-        // on ground
-        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-    }
- 
 }
