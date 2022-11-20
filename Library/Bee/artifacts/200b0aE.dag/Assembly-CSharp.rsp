@@ -471,6 +471,7 @@
 "Assets/Scripts/TrafficLightsController.cs"
 "Assets/Scripts/TrafficLightsControllerTrigger.cs"
 "Assets/Scripts/tryMovePlayer.cs"
+"Assets/Scripts/trySceneChanger.cs"
 "Assets/Scripts/VehicleController.cs"
 "Assets/Scripts/VRAnimatorController.cs"
 -langversion:9.0
