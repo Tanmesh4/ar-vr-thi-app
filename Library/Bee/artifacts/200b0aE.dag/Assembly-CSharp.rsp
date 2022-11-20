@@ -463,7 +463,6 @@
 "Assets/Samples/VIVE Input Utility/1.17.0/3. 3D Drag/Scripts/PlayGroundManager.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/GravitySwitch.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/ResetButton.cs"
-"Assets/Scripts/MovePlayer.cs"
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/NetworkPlayer.cs"
 "Assets/Scripts/PhotonStatus.cs"
@@ -471,6 +470,7 @@
 "Assets/Scripts/RigPosition.cs"
 "Assets/Scripts/TrafficLightsController.cs"
 "Assets/Scripts/TrafficLightsControllerTrigger.cs"
+"Assets/Scripts/tryMovePlayer.cs"
 "Assets/Scripts/VehicleController.cs"
 "Assets/Scripts/VRAnimatorController.cs"
 -langversion:9.0
