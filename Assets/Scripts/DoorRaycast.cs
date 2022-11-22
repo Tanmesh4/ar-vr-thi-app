@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-	[SerializedField] private int rayLength = 5;
-	[SerializedField] private LayerMask layerMaskInteract;
-	[SerializedField] private string excludeLayerName = null;
+	[SerializeField] private int rayLength = 5;
+	[SerializeField] private LayerMask layerMaskInteract;
+	[SerializeField] private string excludeLayerName = null;
 
 	private MyDoorController rayCastedObj;
 
-	[SerializedField] private KeyCode openDoorKey = KeyCode.Mouse0;
-	[SerializedField] private Image crosshair = null;
+	[SerializeField] private KeyCode openDoorKey = KeyCode.Mouse0;
+	[SerializeField] private Image crosshair = null;
 
 	private bool isCrosshairActive;
 	private bool doOnce;
@@ -32,7 +32,7 @@ public class NewBehaviourScript : MonoBehaviour
 				{
 					if(!doOnce)
 					{
-						rayCastedObj = hit.collider.gameObj.GetComponent<MyDoorController>();
+						rayCastedObj = hit.collider.gameObject.GetComponent<MyDoorController>();
 						CrosshairChange(true);
 					}
 
