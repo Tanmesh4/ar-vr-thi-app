@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets/Avatare/UnityChan/Editor/CreateLocatorHere.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -290,58 +291,58 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
@@ -719,154 +720,154 @@
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Animation.Rigging.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Wave.XRSDK">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Wave.XRSDK.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Wave.XRSDK.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Wave.XRSDK.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Wave.XRSDK.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Wave.XRSDK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="HTC.ViveInputUtility.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/HTC.ViveInputUtility.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/HTC.ViveInputUtility.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Animation.Rigging">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="HTC.ViveInputUtility">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/HTC.ViveInputUtility.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/HTC.ViveInputUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>/Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
