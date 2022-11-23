@@ -15,7 +15,7 @@ C:/Users/tkide/OneDrive/Datenspeicher/Master UX/02 AR VR Project/git project/ar-
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61271
+53247
 Successfully changed project path to: C:/Users/tkide/OneDrive/Datenspeicher/Master UX/02 AR VR Project/git project/ar-vr-thi-app
 C:/Users/tkide/OneDrive/Datenspeicher/Master UX/02 AR VR Project/git project/ar-vr-thi-app
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/tkide/OneDrive/Datenspeicher/Master UX/02 AR VR Project/git project/ar-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 253.33 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 226.64 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,80 +63,80 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007570 seconds.
+Registered in 0.008224 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 177.42 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 217.76 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
+- Completed reload, in  1.393 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1073ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (787ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (492ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (631ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (178ms)
+				RefreshPlugins (218ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (224ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021094 seconds.
+Registered in 0.024250 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 178.61 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 220.29 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.287 seconds
+- Completed reload, in  2.761 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2288ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (2762ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1906ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2331ms)
+			LoadAssemblies (198ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (498ms)
+			SetupTypeCache (608ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (120ms)
-			SetupLoadedEditorAssemblies (1054ms)
+			RebuildScriptCaches (157ms)
+			SetupLoadedEditorAssemblies (1282ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (179ms)
-				BeforeProcessingInitializeOnLoad (195ms)
-				ProcessInitializeOnLoadAttributes (627ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (220ms)
+				BeforeProcessingInitializeOnLoad (296ms)
+				ProcessInitializeOnLoadAttributes (711ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -155,12 +155,12 @@ Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
 Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
 Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.52 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5284 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (57.2 KB). Loaded Objects now: 5709.
+Unloading 75 unused Assets / (57.4 KB). Loaded Objects now: 5709.
 Memory consumption went from 198.9 MB to 198.9 MB.
-Total: 11.743200 ms (FindLiveObjects: 0.982700 ms CreateObjectMapping: 0.861600 ms MarkObjects: 9.678500 ms  DeleteObjects: 0.217700 ms)
+Total: 13.562500 ms (FindLiveObjects: 1.234800 ms CreateObjectMapping: 1.099300 ms MarkObjects: 10.961000 ms  DeleteObjects: 0.264700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,31 +174,512 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 322546.518387 seconds.
-  path: Assets/Samples/VIVE Input Utility/1.17.0/3. 3D Drag/Scripts/Draggable.cs
-  artifactKey: Guid(a0bf581a90ad01748825bae2878d181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/VIVE Input Utility/1.17.0/3. 3D Drag/Scripts/Draggable.cs using Guid(a0bf581a90ad01748825bae2878d181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd923a02dca4b0ecc5ab15bae32dcd454') in 0.095408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20642651b0926637c8531859aa8467fb') in 1.327159 seconds 
+  Time since last request: 323156.208717 seconds.
+  path: Assets/Kitchen Assets/storageElement.prefab
+  artifactKey: Guid(2df78cd260927084cb83f08121d49c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Assets/storageElement.prefab using Guid(2df78cd260927084cb83f08121d49c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15894f56269fdfd847e29620d960dee0') in 1.765379 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png
-  artifactKey: Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown CheckMark.png using Guid(fd47c8b4ebfbd4339858d4d23f587519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc84d2a7455f76ab67e2f78e678f1fc8') in 0.073960 seconds 
+  path: Assets/Kitchen Assets/overheadStorageElement.prefab
+  artifactKey: Guid(6eeaf8fa388b6604ba3d2f32365eb6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Assets/overheadStorageElement.prefab using Guid(6eeaf8fa388b6604ba3d2f32365eb6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c4c7b07a7c4ba861b72213edc643ba') in 0.054295 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Road_Runner/Drywall01_Diff.png
-  artifactKey: Guid(4170db73cf03d7545949943cddf2a809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road_Runner/Drywall01_Diff.png using Guid(4170db73cf03d7545949943cddf2a809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dc38a5a8780106a93bd62db81fe52a') in 0.042820 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/Kitchen Assets/Kitchen take 3.fbx
+  artifactKey: Guid(0bb52053015a645498834c487d8de101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Assets/Kitchen take 3.fbx using Guid(0bb52053015a645498834c487d8de101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c32957c34937723a5d9466e87a8340') in 0.860531 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Road_Runner/MultiUserVR_Szene.fbx
-  artifactKey: Guid(4cdcb66a08de7bc45ad2945644005546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road_Runner/MultiUserVR_Szene.fbx using Guid(4cdcb66a08de7bc45ad2945644005546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf14d3522544d486063fcc4f7097df0d') in 5.839574 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.35 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2968ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2353ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (847ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (1040ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (741ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 22.72 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.7 KB). Loaded Objects now: 5760.
+Memory consumption went from 201.3 MB to 201.3 MB.
+Total: 11.967300 ms (FindLiveObjects: 0.842600 ms CreateObjectMapping: 0.779600 ms MarkObjects: 10.247300 ms  DeleteObjects: 0.095200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.47 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.372 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2373ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1923ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (614ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (922ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (656ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 22.53 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.8 KB). Loaded Objects now: 5766.
+Memory consumption went from 201.3 MB to 201.3 MB.
+Total: 12.258200 ms (FindLiveObjects: 0.872700 ms CreateObjectMapping: 0.917300 ms MarkObjects: 10.354300 ms  DeleteObjects: 0.111400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2495ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1989ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (637ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (958ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (694ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 22.08 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.7 KB). Loaded Objects now: 5773.
+Memory consumption went from 201.4 MB to 201.3 MB.
+Total: 12.065000 ms (FindLiveObjects: 0.844200 ms CreateObjectMapping: 0.804200 ms MarkObjects: 10.313500 ms  DeleteObjects: 0.100700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.532 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2533ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2036ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (637ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (990ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 22.33 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.7 KB). Loaded Objects now: 5779.
+Memory consumption went from 201.4 MB to 201.4 MB.
+Total: 12.191900 ms (FindLiveObjects: 0.963900 ms CreateObjectMapping: 0.823400 ms MarkObjects: 10.301400 ms  DeleteObjects: 0.101000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2127ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1716ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (798ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (568ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 23.40 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.7 KB). Loaded Objects now: 5785.
+Memory consumption went from 201.3 MB to 201.3 MB.
+Total: 21.862100 ms (FindLiveObjects: 0.882700 ms CreateObjectMapping: 0.808500 ms MarkObjects: 20.057900 ms  DeleteObjects: 0.110200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2112ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (802ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (568ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 22.57 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.8 KB). Loaded Objects now: 5791.
+Memory consumption went from 201.5 MB to 201.5 MB.
+Total: 12.078900 ms (FindLiveObjects: 0.967400 ms CreateObjectMapping: 0.840800 ms MarkObjects: 10.176000 ms  DeleteObjects: 0.092100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031544 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tkide\OneDrive\Datenspeicher\Master UX\02 AR VR Project\git project\ar-vr-thi-app\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.57 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2754ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2227ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (778ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1025ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (731ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9da2031a78926d0489f6bdcbf31ffa53)
+Failed to load shader (instanceID 416, GUID 00262b50562beb14cbab9b52bced4f9f)
+Failed to load shader (instanceID 414, GUID abaf2020b803b6847b5c081ed22c05c5)
+Failed to load shader (instanceID 412, GUID b35a2abbdd5b15d4ca40103088758eac)
+Failed to load shader (instanceID 398, GUID 9627902a73805264c818754ecb22c8f9)
+Failed to load shader (instanceID 406, GUID 96d05de60c5f7474491f9f94568cf623)
+Failed to load shader (instanceID 422, GUID 0298b868476735f41857e9ba8f0d4cd1)
+Failed to load shader (instanceID 410, GUID bf944057124b80b4e84496139e3b072c)
+Failed to load shader (instanceID 400, GUID fe3954a9664afb042a2af588b53680b0)
+Failed to load shader (instanceID 404, GUID 235ca6f7bbc0ead4990f386a7ec24292)
+Failed to load shader (instanceID 418, GUID 7a95784c68f03494d8c7911e15fab82a)
+Refreshing native plugins compatible for Editor in 21.59 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5242 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (25.7 KB). Loaded Objects now: 5797.
+Memory consumption went from 201.5 MB to 201.5 MB.
+Total: 13.805100 ms (FindLiveObjects: 0.895800 ms CreateObjectMapping: 0.828400 ms MarkObjects: 11.966800 ms  DeleteObjects: 0.111200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -475,6 +475,8 @@
 "Assets/Samples/VIVE Input Utility/1.17.0/3. 3D Drag/Scripts/PlayGroundManager.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/GravitySwitch.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/5. Collider Event/Scripts/ResetButton.cs"
+"Assets/Scripts/Door Scripts/DoorRaycast.cs"
+"Assets/Scripts/Door Scripts/MyDoorController.cs"
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/NetworkPlayer.cs"
 "Assets/Scripts/PhotonStatus.cs"
