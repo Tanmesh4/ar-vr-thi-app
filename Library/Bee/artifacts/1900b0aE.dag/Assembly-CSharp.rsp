@@ -488,6 +488,7 @@
 "Assets/Scripts/trySceneChanger.cs"
 "Assets/Scripts/VehicleController.cs"
 "Assets/Scripts/VRAnimatorController.cs"
+"Assets/test123.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

@@ -132,6 +132,7 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BaseController.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\CodecSettingsUI.cs" />
     <Compile Include="Assets\Avatare\UnityChan\Scripts\RandomWind.cs" />
+    <Compile Include="Assets\Scripts\Door Scripts\MyDoorController.cs" />
     <Compile Include="Assets\Scripts\trySceneChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\NetworkPlayer.cs" />
@@ -163,8 +164,8 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\Door Scripts\MyDoorController.cs" />
     <Compile Include="Assets\Scripts\Door Scripts\DoorRaycast.cs" />
+    <Compile Include="Assets\test123.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Avatare\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

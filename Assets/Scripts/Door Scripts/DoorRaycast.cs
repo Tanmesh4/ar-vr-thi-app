@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class DoorRaycast : MonoBehaviour
 {
 	[SerializeField] private int rayLength = 5;
 	[SerializeField] private LayerMask layerMaskInteract;
@@ -45,7 +45,6 @@ public class NewBehaviourScript : MonoBehaviour
 					}
 				}
 		  }
-
 		  else
 		  {
 			if(isCrosshairActive)
