@@ -96,6 +96,7 @@
     <Compile Include="Assets\Samples\VIVE Input Utility\1.17.0\10. Controller Tooltips\ModeManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Avatare\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\Scripts\Door Scripts\FridgeRaycast.cs" />
     <Compile Include="Assets\Samples\VIVE Input Utility\1.17.0\3. 3D Drag\Scripts\Draggable.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\OrthographicController.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\PointersController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\Highlighter.cs" />
+    <Compile Include="Assets\Scripts\Door Scripts\MyFridgeController.cs" />
     <Compile Include="Assets\Scripts\TrafficLightsControllerTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoProximityVoiceChat\Scripts\ProximityVoiceTrigger.cs" />
@@ -166,8 +168,6 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\Door Scripts\MyFridgeController.cs" />
-    <Compile Include="Assets\Scripts\Door Scripts\FridgeRaycast.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Avatare\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
