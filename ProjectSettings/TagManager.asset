@@ -6,6 +6,7 @@ TagManager:
   tags:
   - player
   - InteractiveObject
+  - Selectable
   layers:
   - Default
   - TransparentFX
