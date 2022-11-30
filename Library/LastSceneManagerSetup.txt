@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/LevelKitchen.unity
+- path: Assets/Levels/Usability_test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

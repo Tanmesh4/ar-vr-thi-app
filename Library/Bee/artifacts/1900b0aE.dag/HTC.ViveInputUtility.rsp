@@ -131,6 +131,7 @@
 -define:VIU_PACKAGE
 -define:VIU_UIS_POSE_CONTROL
 -define:CROSS_PLATFORM_INPUT
+-define:VIU_OPENXR_PLUGIN_POSE_CONTROL
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
@@ -358,6 +359,7 @@
 -r:"D:/Files/Personal Files/Documents/Personal Docs/MS/THI/Sem 2 - Assignments/AR VR/Git Final/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
