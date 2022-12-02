@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638055083515360452
-    m_Hash: 1228318995
+      ticks: 638055135351703885
+    m_Hash: 3157549395
   m_LockFileStatus:
     m_FilePath: C:/Users/student/Locispace/ar-vr-thi-app/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638055083515380389
-    m_Hash: 3365970728
+      ticks: 638055135351713846
+    m_Hash: 3019179277
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

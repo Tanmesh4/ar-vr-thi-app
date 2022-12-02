@@ -7,7 +7,7 @@
     },
     {
       "FullName": "Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-01T15:43:35.2126814Z"
+      "LastWriteTime": "2022-12-02T15:45:43.7549817Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -22,20 +22,16 @@
       "LastWriteTime": "2022-08-21T03:48:06Z"
     },
     {
-      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2022-08-21T03:48:06Z"
-    },
-    {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-01T15:43:34.8224398Z"
-    },
-    {
-      "FullName": "Unity.Animation.Rigging.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-12-01T15:43:34.59787Z"
+      "LastWriteTime": "2022-12-02T15:45:43.7103944Z"
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-08-21T03:48:06Z"
+    },
+    {
+      "FullName": "Unity.Animation.Rigging.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-12-02T15:45:43.7113944Z"
     }
   ],
   "Functions": [
@@ -49,8 +45,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -63,8 +58,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -77,8 +71,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -91,8 +84,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -105,8 +97,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -119,8 +110,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -133,8 +123,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -143,6 +132,7 @@
       "ModuleHash": "fc62387c2f93664175088ed405d47e04",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
+        5,
         6,
         4,
         2
@@ -154,7 +144,7 @@
       "ModuleHash": "c76edd1d8fc246250f6a2ba6b5562ba0",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
-        6,
+        5,
         4,
         2
       ]
@@ -169,8 +159,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -183,8 +172,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -197,8 +185,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -211,8 +198,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -225,8 +211,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -239,8 +224,7 @@
         1,
         2,
         3,
-        4,
-        5
+        4
       ]
     },
     {
@@ -254,8 +238,7 @@
         2,
         3,
         1,
-        4,
-        5
+        4
       ]
     },
     {
@@ -269,8 +252,7 @@
         2,
         3,
         1,
-        4,
-        5
+        4
       ]
     },
     {
@@ -284,8 +266,7 @@
         2,
         3,
         1,
-        4,
-        5
+        4
       ]
     },
     {
@@ -299,8 +280,7 @@
         2,
         3,
         1,
-        4,
-        5
+        4
       ]
     },
     {
@@ -311,11 +291,10 @@
       "AssemblyDependencyIndices": [
         0,
         7,
-        3,
         2,
+        3,
         1,
-        4,
-        5
+        4
       ]
     },
     {
@@ -329,8 +308,7 @@
         2,
         3,
         1,
-        4,
-        5
+        4
       ]
     },
     {
@@ -341,12 +319,10 @@
       "AssemblyDependencyIndices": [
         0,
         7,
-        8,
         2,
         3,
         1,
-        4,
-        5
+        4
       ]
     }
   ]

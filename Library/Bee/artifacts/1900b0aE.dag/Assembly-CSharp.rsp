@@ -503,6 +503,7 @@
 "Assets/Scripts/TrafficLightsControllerTrigger.cs"
 "Assets/Scripts/tryMovePlayer.cs"
 "Assets/Scripts/trySceneChanger.cs"
+"Assets/Scripts/tryUIcanvasManager.cs"
 "Assets/Scripts/VehicleController.cs"
 "Assets/Scripts/VRAnimatorController.cs"
 "Assets/selection_manager.cs"

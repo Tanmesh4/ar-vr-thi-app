@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class trySceneChanger : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class trySceneChanger : MonoBehaviour
     public GameObject nextScene;
     public GameObject currentScene;
     public GameObject loadRequiredAsset;
+    public Button disableLoadedButton;
+
     void Start()
     {
         
@@ -25,10 +28,19 @@ public class trySceneChanger : MonoBehaviour
         }
         if(currentScene) {
         currentScene.SetActive(false);
+        if(currentScene.ToString().Split(" ")[0] == "InstructionCanvas") {
+            tryUIcanvasManager.numberOfSymbolClickedInequation += 1;
+        }
         }
     }
 
     public void loadRequestedAsset() {
         loadRequiredAsset.SetActive(true);
     }
+
+    public void disableButton() {
+        Debug.Log("disabling button" + disableLoadedButton.ToString());
+        disableLoadedButton.interactable = false;
+    }
+    
 }

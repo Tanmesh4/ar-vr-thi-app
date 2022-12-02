@@ -1827,6 +1827,144 @@ MonoBehaviour:
   segmentLength: 0.05
   raycaster: {fileID: 1932979271}
   lineRenderer: {fileID: 103904061}
+--- !u!1 &117360700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 117360701}
+  - component: {fileID: 117360703}
+  - component: {fileID: 117360702}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &117360701
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117360700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.0003886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2085129822}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -18, y: 995}
+  m_SizeDelta: {x: 1299.2, y: 309.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &117360702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117360700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Thankyou for playing!
+
+
+    Rember your Mind Palace'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 120
+  m_fontSizeBase: 120
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &117360703
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117360700}
+  m_CullTransparentMesh: 1
 --- !u!1 &122980059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,6 +2808,7 @@ MonoBehaviour:
   nextScene: {fileID: 1704236198}
   currentScene: {fileID: 1986970781}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!114 &175083798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2873,6 +3012,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 183315847}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &183315845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2926,6 +3077,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 93069295}
   loadRequiredAsset: {fileID: 532096339}
+  disableLoadedButton: {fileID: 2047095819}
 --- !u!1001 &183722014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3655,6 +3807,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1024943214}
   loadRequiredAsset: {fileID: 1200608786}
+  disableLoadedButton: {fileID: 1964327426}
 --- !u!114 &215589603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3714,6 +3867,18 @@ MonoBehaviour:
       - m_Target: {fileID: 215589602}
         m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
         m_MethodName: loadRequestedAsset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 215589602}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3884,6 +4049,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219257229}
   m_CullTransparentMesh: 1
+--- !u!1 &224073297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224073299}
+  - component: {fileID: 224073298}
+  m_Layer: 0
+  m_Name: UICanvasManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &224073298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224073297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d0303daeb64bd4a814d153d10d37bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deactivateScene: {fileID: 1986970781}
+  loadFinalScene: {fileID: 2085129817}
+--- !u!4 &224073299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224073297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2108644, y: 0.26546958, z: 4.2133904}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238313766
 GameObject:
   m_ObjectHideFlags: 0
@@ -5509,6 +5720,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 360535738}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &360535736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5562,6 +5785,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1961371279}
   loadRequiredAsset: {fileID: 974820045}
+  disableLoadedButton: {fileID: 706790756}
 --- !u!1001 &367060361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5906,6 +6130,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 390833375}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &390833373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5959,6 +6195,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1961371279}
   loadRequiredAsset: {fileID: 1097462888}
+  disableLoadedButton: {fileID: 706790756}
 --- !u!1001 &394083652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6737,6 +6974,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 450472746}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &450472744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6790,6 +7039,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1024943214}
   loadRequiredAsset: {fileID: 558694574}
+  disableLoadedButton: {fileID: 1964327426}
 --- !u!1 &453801509
 GameObject:
   m_ObjectHideFlags: 0
@@ -8639,6 +8889,7 @@ MonoBehaviour:
   nextScene: {fileID: 1986970781}
   currentScene: {fileID: 1939682539}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!1 &627016672
 GameObject:
   m_ObjectHideFlags: 0
@@ -9839,6 +10090,7 @@ MonoBehaviour:
   nextScene: {fileID: 0}
   currentScene: {fileID: 1986970781}
   loadRequiredAsset: {fileID: 1645477612}
+  disableLoadedButton: {fileID: 0}
 --- !u!114 &670722047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10409,6 +10661,7 @@ MonoBehaviour:
   nextScene: {fileID: 1961371279}
   currentScene: {fileID: 1986970781}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!114 &706790756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11480,6 +11733,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 780182881}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &780182879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11533,6 +11798,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1704236198}
   loadRequiredAsset: {fileID: 1422112037}
+  disableLoadedButton: {fileID: 175083798}
 --- !u!1 &794616851
 GameObject:
   m_ObjectHideFlags: 0
@@ -12945,6 +13211,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 829223354}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &829223352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12998,6 +13276,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 586053617}
   loadRequiredAsset: {fileID: 1262853058}
+  disableLoadedButton: {fileID: 1263909362}
 --- !u!1 &835636747
 GameObject:
   m_ObjectHideFlags: 0
@@ -13107,6 +13386,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 835636752}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &835636750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13160,6 +13451,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1704236198}
   loadRequiredAsset: {fileID: 803887546}
+  disableLoadedButton: {fileID: 175083798}
 --- !u!1 &861222327
 GameObject:
   m_ObjectHideFlags: 0
@@ -14895,6 +15187,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 971352636}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &971352634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14948,6 +15252,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 586053617}
   loadRequiredAsset: {fileID: 808924167}
+  disableLoadedButton: {fileID: 1263909362}
 --- !u!1001 &974820044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15481,7 +15786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1024943215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16801,6 +17106,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1704236198}
   loadRequiredAsset: {fileID: 74560745}
+  disableLoadedButton: {fileID: 175083798}
 --- !u!114 &1177024910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16860,6 +17166,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1177024909}
         m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
         m_MethodName: loadRequestedAsset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1177024909}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16963,6 +17281,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 93069295}
   loadRequiredAsset: {fileID: 701170336}
+  disableLoadedButton: {fileID: 2047095819}
 --- !u!114 &1186806775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17022,6 +17341,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1186806774}
         m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
         m_MethodName: loadRequestedAsset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1186806774}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17951,6 +18282,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242149060}
   m_CullTransparentMesh: 1
+--- !u!1 &1243829264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243829265}
+  - component: {fileID: 1243829267}
+  - component: {fileID: 1243829266}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1243829265
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243829264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.0621564, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2085129822}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 32}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1243829266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243829264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1243829267
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243829264}
+  m_CullTransparentMesh: 1
 --- !u!1 &1249028295
 GameObject:
   m_ObjectHideFlags: 0
@@ -18284,6 +18691,7 @@ MonoBehaviour:
   nextScene: {fileID: 586053617}
   currentScene: {fileID: 1986970781}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!114 &1263909362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19824,6 +20232,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 586053617}
   loadRequiredAsset: {fileID: 1671095846}
+  disableLoadedButton: {fileID: 1263909362}
 --- !u!114 &1346078242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19883,6 +20292,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1346078241}
         m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
         m_MethodName: loadRequestedAsset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1346078241}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20959,6 +21380,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1417930385}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1417930383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21012,6 +21445,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 93069295}
   loadRequiredAsset: {fileID: 763759305}
+  disableLoadedButton: {fileID: 2047095819}
 --- !u!1 &1419233661
 GameObject:
   m_ObjectHideFlags: 0
@@ -22068,6 +22502,7 @@ MonoBehaviour:
   nextScene: {fileID: 1986970781}
   currentScene: {fileID: 1522599702}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!1 &1522599702
 GameObject:
   m_ObjectHideFlags: 0
@@ -22725,6 +23160,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1551674786}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1551674784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22778,6 +23225,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1961371279}
   loadRequiredAsset: {fileID: 183722015}
+  disableLoadedButton: {fileID: 706790756}
 --- !u!1 &1583883803
 GameObject:
   m_ObjectHideFlags: 0
@@ -23427,7 +23875,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1645477617
 Rigidbody:
@@ -26767,7 +27215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1939682540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27309,6 +27757,7 @@ MonoBehaviour:
   nextScene: {fileID: 1024943214}
   currentScene: {fileID: 1986970781}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!114 &1964327426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27512,6 +27961,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1967917004}
+        m_TargetAssemblyTypeName: trySceneChanger, Assembly-CSharp
+        m_MethodName: disableButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1967917002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27565,6 +28026,7 @@ MonoBehaviour:
   nextScene: {fileID: 1522599702}
   currentScene: {fileID: 1024943214}
   loadRequiredAsset: {fileID: 1369880019}
+  disableLoadedButton: {fileID: 1964327426}
 --- !u!1 &1986970781
 GameObject:
   m_ObjectHideFlags: 0
@@ -28415,6 +28877,7 @@ MonoBehaviour:
   nextScene: {fileID: 93069295}
   currentScene: {fileID: 1986970781}
   loadRequiredAsset: {fileID: 0}
+  disableLoadedButton: {fileID: 0}
 --- !u!114 &2047095819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28862,6 +29325,122 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081952623}
   m_CullTransparentMesh: 1
+--- !u!1 &2085129817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2085129822}
+  - component: {fileID: 2085129821}
+  - component: {fileID: 2085129820}
+  - component: {fileID: 2085129819}
+  - component: {fileID: 2085129818}
+  m_Layer: 5
+  m_Name: ThankYouCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2085129818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085129817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d518a00ceacb57f4d94b3cc806d60f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+--- !u!114 &2085129819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085129817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2085129820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085129817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &2085129821
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085129817}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &2085129822
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085129817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7.94}
+  m_LocalScale: {x: 0.0011503, y: 0.0011503, z: 0.0011503}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1243829265}
+  - {fileID: 117360701}
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1.33, y: 0.554}
+  m_SizeDelta: {x: 2769.2139, y: 2445.4424}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2102625314
 GameObject:
   m_ObjectHideFlags: 0
