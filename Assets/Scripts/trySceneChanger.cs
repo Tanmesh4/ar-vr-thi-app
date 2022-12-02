@@ -36,6 +36,7 @@ public class trySceneChanger : MonoBehaviour
 
     public void loadRequestedAsset() {
         loadRequiredAsset.SetActive(true);
+        tryUIcanvasManager.selectedAssets.Add(loadRequiredAsset);
     }
 
     public void disableButton() {

@@ -501,6 +501,7 @@
 "Assets/Scripts/RigPosition.cs"
 "Assets/Scripts/TrafficLightsController.cs"
 "Assets/Scripts/TrafficLightsControllerTrigger.cs"
+"Assets/Scripts/tryFinalCanvas.cs"
 "Assets/Scripts/tryMovePlayer.cs"
 "Assets/Scripts/trySceneChanger.cs"
 "Assets/Scripts/tryUIcanvasManager.cs"

@@ -132,6 +132,7 @@
      <Compile Include="Assets\Avatare\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\Samples\VIVE Input Utility\1.17.0\5. Collider Event\Scripts\GravitySwitch.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Scripts\tryUIcanvasManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Scripts\Door Scripts\DoorRaycast.cs" />
@@ -152,7 +153,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
      <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\tryUIcanvasManager.cs" />
+     <Compile Include="Assets\Scripts\tryFinalCanvas.cs" />
      <None Include="Assets\Avatare\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\Avatare\AudioBoy\Licence.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
