@@ -482,6 +482,7 @@
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs"
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs"
+"Assets/QuickOutline/Scripts/Outline.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/1. UGUI/CubeSize.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/10. Controller Tooltips/ModeManager.cs"
 "Assets/Samples/VIVE Input Utility/1.17.0/10. Controller Tooltips/SelectColorUIController.cs"
