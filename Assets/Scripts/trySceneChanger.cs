@@ -29,8 +29,12 @@ public class trySceneChanger : MonoBehaviour
         if(currentScene) {
         currentScene.SetActive(false);
         if(currentScene.ToString().Split(" ")[0] == "InstructionCanvas") {
-            tryUIcanvasManager.numberOfSymbolClickedInequation += 1;
+            tryUIcanvasManager.numberOfSymbolClickedInForceEquation += 1;
         }
+            if (currentScene.ToString().Split(" ")[0] == "InstructionGravityCanvas")
+            {
+                tryUIcanvasManager.numberOfSymbolClickedInGravityEquation += 1;
+            }
         }
     }
 

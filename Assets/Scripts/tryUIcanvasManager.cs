@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class tryUIcanvasManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static int numberOfSymbolClickedInequation;
+    public static int numberOfSymbolClickedInForceEquation;
+    public static int numberOfSymbolClickedInGravityEquation;
     public static List<GameObject> selectedAssets = new List<GameObject>();
 
     public GameObject deactivateScene;
@@ -21,10 +22,10 @@ public class tryUIcanvasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(numberOfSymbolClickedInequation == 5) {
+        if(numberOfSymbolClickedInForceEquation == 5 || numberOfSymbolClickedInGravityEquation == 6) {
             deactivateScene.SetActive(false);
             loadFinalScene.SetActive(true);
-            numberOfSymbolClickedInequation = 0;
+            numberOfSymbolClickedInForceEquation = 0;
             foreach( var assets in selectedAssets) {
                 //Debug.Log(assets.ToString().Split(" ")[0]);
                 resulttext = resulttext + " " + assets.ToString().Split(" ")[0];
