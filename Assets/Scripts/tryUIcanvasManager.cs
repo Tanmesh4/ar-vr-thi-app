@@ -10,7 +10,8 @@ public class tryUIcanvasManager : MonoBehaviour
     public static int numberOfSymbolClickedInGravityEquation;
     public static List<GameObject> selectedAssets = new List<GameObject>();
 
-    public GameObject deactivateScene;
+    public GameObject deactivateforceScene;
+    public GameObject deactivateGravityScene;
     public GameObject loadFinalScene;
     public string resulttext;
     
@@ -23,7 +24,15 @@ public class tryUIcanvasManager : MonoBehaviour
     void Update()
     {
         if(numberOfSymbolClickedInForceEquation == 5 || numberOfSymbolClickedInGravityEquation == 6) {
-            deactivateScene.SetActive(false);
+            if(numberOfSymbolClickedInForceEquation == 5)
+            {
+                deactivateforceScene.SetActive( false );
+            }
+            if (numberOfSymbolClickedInGravityEquation == 6)
+            {
+                deactivateGravityScene.SetActive( false );
+            }
+
             loadFinalScene.SetActive(true);
             numberOfSymbolClickedInForceEquation = 0;
             foreach( var assets in selectedAssets) {
