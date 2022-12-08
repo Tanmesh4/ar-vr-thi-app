@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 81
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,10 +401,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 047e0000
-      m_LastClickedID: 32260
-      m_ExpandedIDs: 24fbffff047e0000
+      scrollPos: {x: 0, y: 218}
+      m_SelectedIDs: a6760000
+      m_LastClickedID: 30374
+      m_ExpandedIDs: 24fbfffff672000078740000047e00001e7e0000847f0000947f0000f47f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -713,13 +713,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.23767743, y: -0.01456986, z: 0.0035657142, w: 0.9712327}
+    m_Target: {x: 0.24339409, y: 0.6277412, z: -0.21606936, w: 0.7071232}
     speed: 2
-    m_Value: {x: 0.23767641, y: -0.014569798, z: 0.0035656989, w: 0.97122854}
+    m_Value: {x: 0.24339302, y: 0.6277385, z: -0.2160684, w: 0.7071201}
   m_Size:
-    m_Target: 4.415809
+    m_Target: 4.5958505
     speed: 2
-    m_Value: 4.415809
+    m_Value: 4.812409
   m_Ortho:
     m_Target: 1
     speed: 2
