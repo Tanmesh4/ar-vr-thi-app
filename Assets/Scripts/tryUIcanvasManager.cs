@@ -23,8 +23,8 @@ public class tryUIcanvasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(numberOfSymbolClickedInForceEquation == 5 || numberOfSymbolClickedInGravityEquation == 6) {
-            if(numberOfSymbolClickedInForceEquation == 5)
+        if(numberOfSymbolClickedInForceEquation == 7 || numberOfSymbolClickedInGravityEquation == 6) {
+            if(numberOfSymbolClickedInForceEquation == 7)
             {
                 deactivateforceScene.SetActive( false );
             }
