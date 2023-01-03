@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49563
+59696
 Successfully changed project path to: /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app
 /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-a
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 261.88 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 232.72 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,91 +69,91 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56471
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56209
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001706 seconds.
+Registered in 0.001728 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 227.59 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 204.79 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.596 seconds
+- Completed reload, in  2.236 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2597ms)
-		BeginReloadAssembly (213ms)
+	ReloadAssembly (2238ms)
+		BeginReloadAssembly (190ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (2013ms)
-			LoadAssemblies (209ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (206ms)
+		EndReloadAssembly (1713ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1522ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (228ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (965ms)
-				ProcessInitializeOnLoadMethodAttributes (292ms)
+				RefreshPlugins (205ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (762ms)
+				ProcessInitializeOnLoadMethodAttributes (260ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016348 seconds.
+Registered in 0.018006 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 207.08 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 208.42 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  4.397 seconds
+- Completed reload, in  4.509 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4400ms)
-		BeginReloadAssembly (316ms)
+	ReloadAssembly (4512ms)
+		BeginReloadAssembly (323ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (52ms)
+			DisableScriptedObjects (59ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (3679ms)
-			LoadAssemblies (231ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (3773ms)
+			LoadAssemblies (197ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (557ms)
+			SetupTypeCache (554ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (124ms)
-			SetupLoadedEditorAssemblies (2479ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (2591ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (207ms)
-				BeforeProcessingInitializeOnLoad (251ms)
-				ProcessInitializeOnLoadAttributes (1829ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
+				RefreshPlugins (208ms)
+				BeforeProcessingInitializeOnLoad (259ms)
+				ProcessInitializeOnLoadAttributes (1940ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
 				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 2.28 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5422 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 92 unused Assets / (42.4 KB). Loaded Objects now: 5833.
-Memory consumption went from 189.2 MB to 189.1 MB.
-Total: 5.658000 ms (FindLiveObjects: 0.440833 ms CreateObjectMapping: 0.291042 ms MarkObjects: 4.748042 ms  DeleteObjects: 0.176583 ms)
+Memory consumption went from 188.9 MB to 188.9 MB.
+Total: 5.237917 ms (FindLiveObjects: 0.423083 ms CreateObjectMapping: 0.235625 ms MarkObjects: 4.408791 ms  DeleteObjects: 0.169083 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,341 +167,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 732942.584358 seconds.
-  path: Assets/Kitchen_take_2_v7.fbx
-  artifactKey: Guid(e62f5f06397a9e44884aedbdc307c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kitchen_take_2_v7.fbx using Guid(e62f5f06397a9e44884aedbdc307c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6713f1ffd632f001d0c95230f403a4') in 1.290574 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017853 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.637 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4639ms)
-		BeginReloadAssembly (460ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (140ms)
-		EndReloadAssembly (3822ms)
-			LoadAssemblies (247ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (617ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (2582ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (220ms)
-				ProcessInitializeOnLoadAttributes (2119ms)
-				ProcessInitializeOnLoadMethodAttributes (195ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 20.66 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (24.1 KB). Loaded Objects now: 5882.
-Memory consumption went from 270.4 MB to 270.4 MB.
-Total: 10.585334 ms (FindLiveObjects: 0.716458 ms CreateObjectMapping: 0.595584 ms MarkObjects: 9.174458 ms  DeleteObjects: 0.097083 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010734 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.04 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.592 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4596ms)
-		BeginReloadAssembly (404ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (51ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (99ms)
-		EndReloadAssembly (3825ms)
-			LoadAssemblies (245ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (601ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (2560ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (249ms)
-				ProcessInitializeOnLoadAttributes (2069ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.59 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (24.1 KB). Loaded Objects now: 5888.
-Memory consumption went from 273.7 MB to 273.6 MB.
-Total: 5.225791 ms (FindLiveObjects: 0.592000 ms CreateObjectMapping: 0.317958 ms MarkObjects: 4.238292 ms  DeleteObjects: 0.076334 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 931274.845462 seconds.
+  path: Assets/XR/Loaders/Wave XR Loader.asset
+  artifactKey: Guid(76e8f2f93db472d43993a4985cd1a1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Wave XR Loader.asset using Guid(76e8f2f93db472d43993a4985cd1a1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f60d3fcfccad08501043b281a67a87') in 0.160947 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4200.252725 seconds.
-  path: Assets/Scripts/doorOpen.playable
-  artifactKey: Guid(a3f710d671f7dbc4b8fc76c7b3eec430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/doorOpen.playable using Guid(a3f710d671f7dbc4b8fc76c7b3eec430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e1769a747baccedc3e46fa16d19e90') in 0.123981 seconds 
+  Time since last request: 0.000274 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.2/Starter Assets/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.2/Starter Assets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2884d48827da20c93cb0f3912d195851') in 0.099837 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018540 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.12 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.148 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5152ms)
-		BeginReloadAssembly (509ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (65ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (146ms)
-		EndReloadAssembly (4155ms)
-			LoadAssemblies (300ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (718ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (2732ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (216ms)
-				ProcessInitializeOnLoadAttributes (2182ms)
-				ProcessInitializeOnLoadMethodAttributes (282ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.68 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (24.0 KB). Loaded Objects now: 5894.
-Memory consumption went from 355.9 MB to 355.9 MB.
-Total: 5.255458 ms (FindLiveObjects: 0.402000 ms CreateObjectMapping: 0.256583 ms MarkObjects: 4.535958 ms  DeleteObjects: 0.059917 ms)
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.2/XR Device Simulator/XR Device Simulator.prefab using Guid(9f5a24a380916d14db9775daab4fe333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce106e5459eca750dbadb74669d68400') in 0.133743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/XR/Settings/Wave XR Settings.asset
+  artifactKey: Guid(0cbdab12b4b62f5428b9fb90f1ce4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Wave XR Settings.asset using Guid(0cbdab12b4b62f5428b9fb90f1ce4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WaveXRSettings.Awake()
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.Settings.WaveXRSettings:Awake () (at Library/PackageCache/com.htc.upm.wave.xrsdk@4.5.0-r.3/Runtime/WaveXRSettings.cs:211)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010450 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.885 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4889ms)
-		BeginReloadAssembly (455ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (51ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (4028ms)
-			LoadAssemblies (296ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (578ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (2799ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (2324ms)
-				ProcessInitializeOnLoadMethodAttributes (195ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 12.67 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (24.1 KB). Loaded Objects now: 5900.
-Memory consumption went from 359.2 MB to 359.2 MB.
-Total: 8.727792 ms (FindLiveObjects: 0.614000 ms CreateObjectMapping: 0.468500 ms MarkObjects: 7.564334 ms  DeleteObjects: 0.078167 ms)
+(Filename: Library/PackageCache/com.htc.upm.wave.xrsdk@4.5.0-r.3/Runtime/WaveXRSettings.cs Line: 211)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+ -> (artifact id: '394af745e474618f6a4bf372564f9c2b') in 0.011038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(9867190d1a05e794f93607f4f09b048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(9867190d1a05e794f93607f4f09b048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15561b573c9f26d82fc1b115b65c282') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(b8c05be01eb38174b80f159f010b7db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(b8c05be01eb38174b80f159f010b7db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ee7ca073790858a48a2201144dc91c') in 0.031918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.2/Starter Assets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.2/Starter Assets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc5bde49c183b350c53e9b47bc12668') in 0.005941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.654666 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(76edb76003a39934fbb26f4045353cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(76edb76003a39934fbb26f4045353cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b854a91e2495501581720af27854462') in 0.000940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.641946 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.2
+  artifactKey: Guid(8db0d85f514bb0a4d847be73d4ffdeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.2 using Guid(8db0d85f514bb0a4d847be73d4ffdeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f3ff017b169ef8e2b0395442ba1666') in 0.000892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.466226 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.2/Starter Assets
+  artifactKey: Guid(af942016b49cbc94394fa1102fa8b1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.2/Starter Assets using Guid(af942016b49cbc94394fa1102fa8b1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1e8ce3a6b87a9c231f05ced4716a53') in 0.001209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 936.755394 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/CharacterControllerDriver.cs
+  artifactKey: Guid(af6bf904e410ee8479f9093d8830d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Locomotion/CharacterControllerDriver.cs using Guid(af6bf904e410ee8479f9093d8830d1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d4cae8490f695bc1615f72e54047b0') in 0.214532 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017875 seconds.
+Registered in 0.010771 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.27 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.757 seconds
+- Completed reload, in  6.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4760ms)
-		BeginReloadAssembly (461ms)
+	ReloadAssembly (6363ms)
+		BeginReloadAssembly (546ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (54ms)
+			DisableScriptedObjects (84ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (3905ms)
-			LoadAssemblies (271ms)
+			CreateAndSetChildDomain (144ms)
+		EndReloadAssembly (5191ms)
+			LoadAssemblies (240ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (604ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (2627ms)
+			SetupTypeCache (795ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (3604ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (218ms)
-				ProcessInitializeOnLoadAttributes (2159ms)
-				ProcessInitializeOnLoadMethodAttributes (197ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 20.45 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (24.2 KB). Loaded Objects now: 5906.
-Memory consumption went from 362.3 MB to 362.3 MB.
-Total: 12.652209 ms (FindLiveObjects: 0.744875 ms CreateObjectMapping: 0.544917 ms MarkObjects: 11.244875 ms  DeleteObjects: 0.114125 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011107 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/tanmeshshah/Desktop/AVR/ar-vr-thi-app/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.10 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.732 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4734ms)
-		BeginReloadAssembly (401ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (51ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (101ms)
-		EndReloadAssembly (3949ms)
-			LoadAssemblies (235ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (588ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (2716ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
+				InitializePlatformSupportModulesInManaged (58ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (304ms)
-				ProcessInitializeOnLoadAttributes (2145ms)
-				ProcessInitializeOnLoadMethodAttributes (209ms)
+				BeforeProcessingInitializeOnLoad (316ms)
+				ProcessInitializeOnLoadAttributes (2926ms)
+				ProcessInitializeOnLoadMethodAttributes (295ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 19.10 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 11.42 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (24.1 KB). Loaded Objects now: 5912.
-Memory consumption went from 365.5 MB to 365.5 MB.
-Total: 15.795833 ms (FindLiveObjects: 1.296125 ms CreateObjectMapping: 0.716584 ms MarkObjects: 13.654084 ms  DeleteObjects: 0.126625 ms)
+Unloading 5361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (24.1 KB). Loaded Objects now: 5841.
+Memory consumption went from 504.3 MB to 504.3 MB.
+Total: 4.760458 ms (FindLiveObjects: 0.411542 ms CreateObjectMapping: 0.225166 ms MarkObjects: 4.076333 ms  DeleteObjects: 0.045208 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -513,3 +296,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152.672194 seconds.
+  path: Assets/Kitchen_take_2_v7 1.fbx
+  artifactKey: Guid(def1a4366246ec54e8531832538eebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen_take_2_v7 1.fbx using Guid(def1a4366246ec54e8531832538eebff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd900477d2e55677583dbeba822e2b7e3') in 0.607272 seconds 

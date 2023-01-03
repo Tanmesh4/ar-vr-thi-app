@@ -430,6 +430,7 @@
 "Assets/Avatare/UnityChan/Scripts/ThirdPersonCamera.cs"
 "Assets/Avatare/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs"
 "Assets/Avatare/UnityChan/SplashScreen/Scripts/SplashScreen.cs"
+"Assets/CharacterMovement.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
