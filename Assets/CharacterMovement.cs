@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using Unity.XR.CoreUtils;
 
-public class CharacterMovement : MonoBehaviour
+public class characterMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private XRRig XROrigin;
-    private CharacterController CharacterController;
-    private CharacterController driver;
+    public XROrigin XROrigin;
+    public CharacterController characterController;
+    public CharacterControllerDriver driver;
+
     void Start()
     {
-        XROrigin = GetComponent<XRRig>();
-        CharacterController = GetComponent<CharacterController>();
-        driver = GetComponent<CharacterController>();
+        XROrigin = GetComponent<XRRig>(); 
+        characterController = GetComponent<CharacterController>(); 
+        driver = GetComponent<CharacterControllerDriver>();
     }
 
     // Update is called once per frame
@@ -22,21 +23,17 @@ public class CharacterMovement : MonoBehaviour
         UpdateCharacterController();
     }
 
-     /// <summary>
-        /// Updates the <see cref="CharacterController.height"/> and <see cref="CharacterController.center"/>
-        /// based on the camera's position.
-        /// </summary>
-        protected virtual void UpdateCharacterController()
-        {
-            if (XROrigin == null || CharacterController == null)
-                return;
+    protected virtual void UpdateCharacterController()
+    {
+        if (XROrigin == null || characterController == null)
+            return;
 
-            var height = Mathf.Clamp(XROrigin.CameraInOriginSpaceHeight, driver.minHeight, drover.maxHeight);
+        var height = Mathf.Clamp(XROrigin.CameraInOriginSpaceHeight, driver.minHeight, driver.maxHeight);
 
-            Vector3 center = XROrigin.CameraInOriginSpacePos;
-            center.y = height / 2f + CharacterController.skinWidth;
+        Vector3 center = XROrigin.CameraInOriginSpacePos;
+        center.y = height / 2f + characterController.skinWidth;
 
-            CharacterController.height = height;
-            CharacterController.center = center;
-        }
+        characterController.height = height;
+        characterController.center = center;
+    }
 }
