@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4608958, g: 0.59914464, b: 0.7163813, a: 1}
+  m_IndirectSpecularColor: {r: 0.46091858, g: 0.5992374, b: 0.7167184, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -21126,7 +21126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &480921726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22627,7 +22627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 503822915}
-  m_MoveSpeed: 5
+  m_MoveSpeed: 10
   m_EnableStrafe: 1
   m_UseGravity: 1
   m_GravityApplicationMode: 0
@@ -34169,7 +34169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 998ebe8a23634af4aadb1cc829222b72, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 998ebe8a23634af4aadb1cc829222b72, type: 3}
@@ -34356,8 +34356,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 763759325}
   - {fileID: 763759324}
+  - {fileID: 763759325}
   sceneViewId: 12
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -94366,7 +94366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2148534185872411016}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.87, y: -0.11399996, z: 0.076}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95008,6 +95008,7 @@ GameObject:
   - component: {fileID: 8324902961923647429}
   - component: {fileID: 8340789799603093742}
   - component: {fileID: 280403219735634671}
+  - component: {fileID: 8340789799603093743}
   m_Layer: 0
   m_Name: Island Grass
   m_TagString: Untagged
@@ -96868,6 +96869,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3458404014505373252}
+  m_Mesh: {fileID: 6823253630824224268, guid: 64d22bb7808316249a05373d4153b007, type: 3}
+--- !u!64 &8340789799603093743
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3458404014505373252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 6823253630824224268, guid: 64d22bb7808316249a05373d4153b007, type: 3}
 --- !u!4 &8341767426621020177
 Transform:
