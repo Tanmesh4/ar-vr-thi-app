@@ -56,7 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\SnapTurn\ActionBasedSnapTurnProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\Continuous\ActionBasedContinuousTurnProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Controllers\ActionBasedController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\Continuous\ActionBasedContinuousMoveProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Controllers\XRControllerRecorder.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Interactables\ARBaseGestureInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\LocomotionProvider.deprecated.cs" />
@@ -90,7 +93,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\LocomotionProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\Teleportation\BaseTeleportationInteractable.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Gestures\DragGesture.deprecated.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\SnapTurn\ActionBasedSnapTurnProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Interactables\ARSelectionInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Utilities\ProjectPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Interactables\GestureTransformationUtility.deprecated.cs" />
@@ -134,7 +136,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Interactables\IXRSelectInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Interactors\IXRHoverInteractor.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Interactors\XRBaseInteractor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\Continuous\ActionBasedContinuousTurnProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Interactables\ARSelectionInteractable.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Gestures\TwoFingerDragGestureRecognizer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\AR\Gestures\GestureTouchesUtility.cs" />
@@ -178,7 +179,6 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\UI\XRUIInputModule.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Utilities\ScriptableSettings\TypeExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Interactors\XRBaseInteractor.deprecated.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Locomotion\Continuous\ActionBasedContinuousMoveProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\XRHelpURLConstants.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Interactables\XRBaseInteractable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.2\Runtime\Interaction\Interactables\IXRInteractable.cs" />
